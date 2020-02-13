@@ -1,0 +1,28 @@
+GIT
+
+Basic
+สร้าง       directory     โดย  mkdir (ชื่อไฟล์)
+ดูรายการ directories   โดย  dir 
+เปลี่ยน     drive         โดย  d:
+เปลี่ยน     working directory   โดย  cd lab01 // cd .. 
+สร้าง       .git โดย git init
+
+Test & using
+ตรวจสอบ   Git โดย git --version
+ทดสอบโดย git status
+เพิ่มไฟล์     git add
+ตั่งชื่อหรืออีเมล  
+git config --global user.name "Your Name"
+git config --global user.email "yourmail@ku.th"
+
+Commit
+เพื่อเก็บ checkpoint 
+git commit -m "Add ชื่อไฟล์"
+ดู checkpoint 
+git log --all --decorate --oneline --graph
+
+Github
+เชื่อม local กับ github
+git remote add <ชื่อ remote เช่น origin> <git url>
+เมื่อเชื่อมได้แล้ว
+git push -u เพื่อส่งไฟล์
