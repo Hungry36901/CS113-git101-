@@ -1,0 +1,6 @@
+1.โคลนงานจากเว็บ :git clone <url>
+2.การสร้าง branch :git branch <name>
+3.ตรวจสอบ branch :git branch โคยให้สังเกต * จะนำอยู่หน้าชื่อ branch ที่กำลังพัฒนาอยู่
+4.เปลี่ยน branch :git cheackout <name>
+5.การ merge branch ก่อนจะ merge ให้เปลี่ยนเป็น branch ปลายทางก่อน
+6.เช็คกาเปลี่ยนแปลงด้วย git log --all --decorate --oneline --graph
